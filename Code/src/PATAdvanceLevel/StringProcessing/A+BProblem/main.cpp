@@ -16,4 +16,5 @@ int main() {
         if (j%3 == 0 && i && x[i-1] != '-') res = "," + res;
     }
     cout << res << endl;
+    return 0;
 }
