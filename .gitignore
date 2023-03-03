@@ -25,3 +25,4 @@ hs_err_pid*
 cmake-build-debug/*
 CMakeLists.txt
 main.cpp
+.idea
