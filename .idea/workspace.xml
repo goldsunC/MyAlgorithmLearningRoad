@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="MyAlgorithmLearningRoad" targetName="A+BForPolynomials" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="BoysVsGirls" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="A+B" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="SpellItRight" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="StringSubtraction" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="SignAndSignOut" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="Password" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="nQueen" />
+      <config projectName="MyAlgorithmLearningRoad" targetName="TreeTraversals" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-MinGW" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd387084-903a-458f-9b4a-47d3200be943" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Code/src/PATAdvanceLevel/HighPrecision/A+BForPolynomials/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/PATAdvanceLevel/HighPrecision/A+BForPolynomials/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2MUi2unk8hAwtpQlzsIZZ5XcQs6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CppStudy/MyAlgorithmLearningRoad/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.TreeTraversals">
+    <configuration name="A+B" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="A+B" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="A+B">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A+BForPolynomials" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="A+BForPolynomials" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="A+BForPolynomials">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoysVsGirls" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="BoysVsGirls" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="BoysVsGirls">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Password" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="Password" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="Password">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignAndSignOut" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="SignAndSignOut" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="SignAndSignOut">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellItRight" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="SpellItRight" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="SpellItRight">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSubtraction" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="StringSubtraction" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="StringSubtraction">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTraversals" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="TreeTraversals" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="TreeTraversals">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nQueen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyAlgorithmLearningRoad" TARGET_NAME="nQueen" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="MyAlgorithmLearningRoad" RUN_TARGET_NAME="nQueen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.A+B" />
+      <item itemvalue="CMake Application.A+BForPolynomials" />
+      <item itemvalue="CMake Application.BoysVsGirls" />
+      <item itemvalue="CMake Application.nQueen" />
+      <item itemvalue="CMake Application.Password" />
+      <item itemvalue="CMake Application.SignAndSignOut" />
+      <item itemvalue="CMake Application.SpellItRight" />
+      <item itemvalue="CMake Application.StringSubtraction" />
+      <item itemvalue="CMake Application.TreeTraversals" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd387084-903a-458f-9b4a-47d3200be943" name="Changes" comment="" />
+      <created>1677828357951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677828357951</updated>
+      <workItem from="1677828359355" duration="304000" />
+      <workItem from="1677828668194" duration="3468000" />
+      <workItem from="1677833719757" duration="22191000" />
+      <workItem from="1678019308547" duration="2384000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
