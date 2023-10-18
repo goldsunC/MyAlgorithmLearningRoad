@@ -19,9 +19,10 @@ public:
         return ans;
     }
 };
-
-
 int main() {
-    cout << "hello world!" <<endl;
+    Solution solution;
+    vector<int> numbers = {1,10,3,3,3};
+    int s = solution.maxKelements(numbers,3);
+    cout << s << endl;
     return 0;
 }
