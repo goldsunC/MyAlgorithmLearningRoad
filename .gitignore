@@ -24,7 +24,7 @@ hs_err_pid*
 
 cmake-build-debug-mingw/*
 CMakeLists.txt
-
+cmake-build-debug
 .idea
 Code/Code.iml
 Code/.idea/*
