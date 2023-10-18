@@ -1,0 +1,21 @@
+# ninja log v5
+20	1918	7193368112846566	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/Imitate/1008Elevator/main.cpp.obj	5b8c935e18d50022
+11	1936	7193368112886955	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/GraphTheory/1003Emergency/main.cpp.obj	c5efb2ffffbb3547
+2	1947	7193368112978680	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/LeetCode/Problem2530-mid/main.cpp.obj	2bb196bd44d0bf27
+30	1959	7193368113038610	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/HighPrecision/1002A+BForPolynomials/main.cpp.obj	7d4191c646faa15e
+41	2011	7193368113781224	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/Sort/1025PATRanking/main.cpp.obj	a77dc5c0d611b743
+53	2084	7193368114529854	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/Imitate/1069TheBlackHoleOfNumbers/main.cpp.obj	5557f07e58bf325b
+1947	2455	7193368118236211	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1006SignInAndSignOut/main.cpp.obj	fe937cf541cc45ff
+1937	2473	7193368118386495	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1005Spell-It-Right/main.cpp.obj	6f6b430626f6c989
+1960	2499	7193368118666581	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1001A+BFormat/main.cpp.obj	42ee3d0bd4438fc9
+2011	2633	7193368120018097	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1035Password/main.cpp.obj	97edccc2d8df0b45
+2456	2963	7193368123310355	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1036BoysVsGirls/main.cpp.obj	74a307c1ad27fdaa
+1925	3673	7193368130423537	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/LinkList/1032Sharing/main.cpp.obj	12377dde315ae768
+2085	3970	7193368133371229	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1050StringSubtraction/main.cpp.obj	6243d7bd4d3781d9
+2499	4247	7193368136156406	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1061Dating/main.cpp.obj	d3c9e863fdb1b712
+2473	4258	7193368136220805	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1060AreTheyEqual/main.cpp.obj	6da51a00f867030a
+2633	4312	7193368136801234	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1082ReadNumberInChinese/main.cpp.obj	ab3650d6b0fe88a5
+3971	4564	7193368139329611	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/Tree/1020TreeTraversals/main.cpp.obj	4d787f52bd392d58
+2963	4739	7193368141085968	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1071SpeechPatterns/main.cpp.obj	c8e03ba1f14f1544
+3674	5243	7193368146128935	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/StringProcessing/1084BrokenKeyboard/main.cpp.obj	5980f08f8e2dd028
+4247	5591	7193368149604379	CMakeFiles/MyAlgorithmLearningRoad.dir/Code/src/PATAdvanceLevel/Tree/1004CountingLeaves/main.cpp.obj	2b2b8fc7ed9f83aa
