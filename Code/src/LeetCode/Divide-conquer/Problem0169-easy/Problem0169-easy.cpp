@@ -38,6 +38,7 @@ class SolutionDivideConquer {
         int mid = (lo + hi) / 2;
         int left_majority = majority_element_rec(nums, lo, mid);
         int right_majority = majority_element_rec(nums, mid + 1, hi);
+
         if (count_in_range(nums, left_majority, lo, hi) > (hi - lo + 1) / 2)
             return left_majority;
         if (count_in_range(nums, right_majority, lo, hi) > (hi - lo + 1) / 2)
@@ -53,7 +54,9 @@ public:
 
 
 int main() {
-
-    cout << "hello world" <<endl;
+    SolutionDivideConquer solutionDivideConquer;
+    vector<int> nums = {2,2,1,1,1,2,2};
+    int res = solutionDivideConquer.majorityElement(nums);
+    cout << res << endl;
     return 0;
 }
