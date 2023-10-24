@@ -4,6 +4,12 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+
+//算法思路，i为左山底，j为山顶，k为右山底
+//遍历山顶j，然后在每一轮遍历中再遍历寻找山顶左边和山顶右边所有元素的最小值
+//它们组成一个最小山形三元组，每次遍历j都产生一个，维护最小的那个就可以了
+//时间复杂度为O(n^2)
+
 class Solution {
 public:
     int minimumSum(vector<int>& nums) {
