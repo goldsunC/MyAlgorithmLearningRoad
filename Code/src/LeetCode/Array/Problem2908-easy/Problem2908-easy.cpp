@@ -40,6 +40,13 @@ public:
         return (minSum == 151)?-1:minSum;
     }
 };
+/*
+ * 时间复杂度O(n)思路，空间复杂度也为O(n)
+ * 分别找到前缀最小值数组和后缀最小值数组，如pre[i]表示nums[0 - i]的最小值。
+ * 仍然遍历山顶j，查询两个数组即可得到前边山底和右边山底数值。
+ * 找两个数组的时间都为O(n)，但是不嵌套而是串行。因此为O(n)。
+ * */
+
 int main() {
     Solution solution;
     vector<int> nums = {49,50,48};
