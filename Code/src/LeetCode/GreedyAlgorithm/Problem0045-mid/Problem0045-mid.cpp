@@ -19,15 +19,17 @@ using namespace std;
 class Solution {
 public:
     int jump(vector<int>& nums) {
+        //maxPos:当前能到达的最大位置，end:上次跳跃可达范围的右边界
         int maxPos = 0,n = nums.size(),end=0, ans = 0;
         for (int i = 0; i < n - 1; ++i) {
-            if (maxPos >= i) {
+//            if (maxPos >= i) { 可以注释掉，因为题目给定一定能跳跃到最后
                 maxPos = max(maxPos, i+nums[i]);
+                //到达上次跳跃能到达的右边界,这里是精髓
                 if (i == end) {
                     end = maxPos;
                     ++ans;
                 }
-            }
+//            }
         }
         return ans;
     }
