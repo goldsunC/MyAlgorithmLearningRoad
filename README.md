@@ -10,7 +10,7 @@ The sources of Problems currently include:
 - TsinghuaOJ:[https://dsa.cs.tsinghua.edu.cn/oj/](https://dsa.cs.tsinghua.edu.cn/oj/)
 
 The name of each folder corresponds to the 
-problem number, where 'easy, mid, hard' corresponds 
+problem number, where **easy, mid, hard** corresponds 
 to the difficulty of the problem.
 
 The repository will be provisionally supplemented 

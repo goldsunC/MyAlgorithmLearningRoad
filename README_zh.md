@@ -5,7 +5,7 @@
 题目的来源目前包括：
 - 力扣官网:[https://leetcode.cn/](https://leetcode.cn/)
 - 清华OJ:[https://dsa.cs.tsinghua.edu.cn/oj/](https://dsa.cs.tsinghua.edu.cn/oj/)
-各文件夹的名字对应了一道题的题号，其中'easy、mid、hard'分别对应了该题目的难度。
+各文件夹的名字对应了一道题的题号，其中 'easy、mid、hard' 分别对应了该题目的难度。
 
 仓库以后暂定会补充包括：
 - 每个题目的思路分析
