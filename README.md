@@ -1,5 +1,12 @@
-# MyAlgorithmLearningRoad
+# goldsunC's AlgorithmLearningRoad
 :sun_with_face: <br />
-记录阳寜的算法学习过程，主要包含学习总结及个人感悟
+This repository will be continuously updated to record my algorithm 
+learning process.
 
-啊啊啊，最近作业数量质量都拉满，稳住。
+At present, I am an algorithm white, 
+maybe only have some simple data structure foundation, 
+my goal is to improve my algorithm level through algorithm 
+learning and continuous completion of algorithm problems.
+
+
+
