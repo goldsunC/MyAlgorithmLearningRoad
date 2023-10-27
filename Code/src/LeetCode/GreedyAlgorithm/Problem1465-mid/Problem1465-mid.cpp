@@ -17,20 +17,27 @@ public:
         int mod = 1e9 + 7;
         sort(horizontalCuts.begin(), horizontalCuts.end());
         sort(verticalCuts.begin(), verticalCuts.end());
-        auto calMax = [](vector<int> &arr, int boardr) -> int {
-            int res = 0, pre = 0;
-            for (int i : arr) {
-                res = max(i - pre, res);
-                pre = i;
-            }
-            return max(res, boardr - pre);
-        };
-        return (long long)calMax(horizontalCuts, h) * calMax(verticalCuts, w) % mod;
+        int maxHor = 0,maxVer = 0;
+        for (int i = 1; i < horizontalCuts.size(); ++i) {
+            maxHor = max(maxHor,horizontalCuts[i] - horizontalCuts[i-1]);
+        }
+        for (int i = 1; i < verticalCuts.size(); ++i) {
+            maxVer = max(maxVer,verticalCuts[i] - verticalCuts[i-1]);
+        }
+        maxHor = max(maxHor,horizontalCuts[0]);
+        maxHor = max(maxHor,h - horizontalCuts[horizontalCuts.size() - 1]);
+        maxVer = max(maxVer,verticalCuts[0]);
+        maxVer = max(maxVer,w - verticalCuts[verticalCuts.size() - 1]);
+        long long hor = maxHor;
+        long long ver = maxVer;
+        return (hor*ver)%mod;
     }
 };
 
 int main() {
-
-
+    vector<int> horizontalCuts = {3,1};
+    vector<int> verticalCuts = {1};
+    Solution solution;
+    cout << solution.maxArea(5,4,horizontalCuts,verticalCuts);
     return 0;
 }
