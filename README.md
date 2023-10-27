@@ -26,6 +26,6 @@ my goal is to improve my algorithm level through algorithm
 learning and continuous completion of algorithm problems.
 
 At present, I have chosen a course about algorithm in school,
-and the reference book is 'Algorithm Design', the author is
+and the reference book is **Algorithm Design**, the author is
 $Jon Kleingberg / Eva Tardos$.
 
