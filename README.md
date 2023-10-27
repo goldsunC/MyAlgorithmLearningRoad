@@ -1,7 +1,9 @@
 # goldsunC's AlgorithmLearningRoad
 :sun_with_face: <br />
+[中文目录](./README_zh.md)
+
 This repository will be continuously updated to record my algorithm 
-learning process.[中文目录](./README_zh.md)
+learning process.
 
 The sources of Problems currently include:
 - leetcode:[https://leetcode.com/](https://leetcode.com/)
