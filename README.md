@@ -13,14 +13,14 @@ The name of each folder corresponds to the
 problem number, where **easy, mid, hard** corresponds 
 to the difficulty of the problem.
 
-The repository will be provisionally supplemented 
+The repository will be supplemented 
 later, including:
-- Analysis of ideas for each question
+- Analysis of ideas for each problem
 - C++ code implementation
 - Study notes for each algorithm category
 - and so on
 
-At present, I am an algorithm white, 
+At present, I am an algorithm beginner, 
 maybe only have some simple data structure foundation, 
 my goal is to improve my algorithm level through algorithm 
 learning and continuous completion of algorithm problems.
