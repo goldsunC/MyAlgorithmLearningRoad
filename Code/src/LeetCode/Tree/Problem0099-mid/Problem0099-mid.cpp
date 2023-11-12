@@ -4,7 +4,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-//Todo:debug
+
 // Definition for a binary tree node.
 struct TreeNode {
     int val;
@@ -18,6 +18,8 @@ struct TreeNode {
 class Solution {
 public:
     vector<int> ans;
+    //注意这个count = 2，debug两小时的问题就在这儿
+    int count = 2;
     void recoverTree(TreeNode* root) {
         vector<int> increaseOrder = midOrder(root);
         int xPos = -1;
@@ -44,8 +46,14 @@ public:
         return ans;
     }
     void reviseRoot(TreeNode *root, int x, int y) {
-        if (root->val == x) root->val = y;
-        if (root->val == y) root->val = x;
+        if (root != nullptr) {
+            if (root->val == x || root->val == y) {
+                root->val = root->val == x ? y : x;
+                if (--count == 0) {
+                    return;
+                }
+            }
+        }
         if (root->left) reviseRoot(root->left,x,y);
         if (root->right) reviseRoot(root->right,x,y);
     }
