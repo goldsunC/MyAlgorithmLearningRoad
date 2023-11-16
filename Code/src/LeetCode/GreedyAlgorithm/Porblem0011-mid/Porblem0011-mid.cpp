@@ -8,21 +8,16 @@ using namespace std;
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int i = 0;
-        int j = height.size() - 1;
-        int water = 0;
-        int nowWater;
-        if (height.size() <= 1) return 0;
-        while (i < j) {
-            nowWater = (j-i) * min(height[i], height[j]);
-            if (nowWater > water) water = nowWater;
-            if (height[i] < height[j]) {
-                i++;
-            } else{
-                j--;
-            }
+        int n = height.size();
+        int maxWater = 0;
+        int left = 0;
+        int right = n - 1;
+        while (left < right) {
+            int nowWater = min(height[left],height[right]) * (right - left);
+            maxWater = max(maxWater,nowWater);
+            height[left] < height[right] ? left++ : right--;
         }
-        return water;
+        return maxWater;
     }
 };
 
