@@ -13,55 +13,39 @@ using namespace std;
 class Solution {
 public:
     int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
-        queue<pair<int, int>> q;
-        int distance = 0;
-        int currentSize = 1;
-        q.push(pair<int,int> (entrance[0],entrance[1]));
-        while (!q.empty()) {
-            distance++;
-            currentSize = q.size();
-            for (int i = 0; i < currentSize; ++i) {
-                // 取队头元素位置
-                pair<int,int> pos = q.front();
-                // 上面有路，入队
-                if (maze[pos.first - 1][pos.second] == '.') {
-                    q.push(pair<int,int>(pos.first-1,pos.second));
-                    // 上面有路，且为边界,终止循环
-                    if (pos.first - 1 == 0) {
-                        q = queue<pair<int,int>>();
-                        break;
+        // m行n列
+        int m = maze.size();
+        int n = maze[0].size();
+        // 上下左右四个相邻坐标对应的行列变化量
+        vector<int> dx = {1, 0, -1, 0};
+        vector<int> dy = {0, 1, 0, -1};
+        // tuple ：元组 元组的三个位分别表示横纵坐标以及相对入口的距离
+        // 即(x,y,distance)
+        queue<tuple<int, int, int>> q;
+        // 入口加入队列并修改为墙
+        q.emplace(entrance[0], entrance[1], 0);
+        maze[entrance[0]][entrance[1]] = '+';
+        while (!q.empty()){
+            auto [cx, cy, d] = q.front();
+            q.pop();
+            // 遍历四个方向相邻坐标
+            for (int k = 0; k < 4; ++k){
+                int nx = cx + dx[k];
+                int ny = cy + dy[k];
+                // 新坐标合法且不为墙
+                if (nx >= 0 && nx < m && ny >= 0 && ny < n && maze[nx][ny] == '.'){
+                    if (nx == 0 || nx == m - 1 || ny == 0 || ny == n - 1){
+                        // 新坐标为出口，返回距离作为答案
+                        return d + 1;
                     }
+                    // 新坐标为空格子且不为出口，修改为墙并加入队列
+                    maze[nx][ny] = '+';
+                    q.emplace(nx, ny, d + 1);
                 }
-                // 下面有路，入队
-                if (maze[pos.first + 1][pos.second] == '.') {
-                    q.push(pair<int,int>(pos.first+1,pos.second));
-                    // 下面有路，且为边界,终止循环
-                    if (pos.first + 1 == 0) {
-                        q = queue<pair<int,int>>();
-                        break;
-                    }
-                }
-                // 左面有路，入队
-                if (maze[pos.first][pos.second - 1] == '.') {
-                    q.push(pair<int,int>(pos.first,pos.second - 1));
-                    // 左面有路，且为边界,终止循环
-                    if (pos.second - 1 == 0) {
-                        q = queue<pair<int,int>>();
-                        break;
-                    }
-                }
-                // 右面有路，入队
-                if (maze[pos.first][pos.second + 1] == '.') {
-                    q.push(pair<int,int>(pos.first,pos.second + 1));
-                    // 右面有路，且为边界,终止循环
-                    if (pos.second + 1 == 0) {
-                        q = queue<pair<int,int>>();
-                        break;
-                    }
-                }
-                q.pop();
             }
         }
-        return distance;
+        // 不存在到出口的路径，返回 -1
+        return -1;
     }
 };
+
