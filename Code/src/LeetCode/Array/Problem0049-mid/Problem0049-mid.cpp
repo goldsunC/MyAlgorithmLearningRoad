@@ -5,9 +5,25 @@
 
 typedef long long ll;
 using namespace std;
+
+/*
+ * 思路：字母异位词排序后应该为一样的单词。
+ * 因此可以将所有单词排序，然后将排序后的单词作为键存储到哈希表
+ * 遍历所有排序过的单词，如果存在该键，则对应值的列表加入原单词。否则作为新键存储哈希表
+ * */
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-
+        unordered_map<string , vector<string>> mp;
+        for(string& str: strs) {
+            string key = str;
+            sort(key.begin(), key.end());
+            mp[key].emplace_back(str);
+        }
+        vector<vector<string>> ans;
+        for(auto it = mp.begin(); it != mp.end(); ++it) {
+            ans.emplace_back(it->second);
+        }
+        return ans;
     }
 };
