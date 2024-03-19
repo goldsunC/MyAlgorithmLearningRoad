@@ -6,7 +6,12 @@
 typedef long long ll;
 using namespace std;
 
-
+/*
+ * 思路：首先将原始数组进行排序，这样可以遍历整个数组，
+ * 遍历的数作为基点，然后用双指针分别指向基点的下一个数和数组的最后一个数。
+ * 此时计算三数之和，根据结果大小选择移动两个指针的的其中一个，直至双指针交汇。
+ * 这样把原本需要的n*n*n复杂度变为了n*n复杂度。
+ * */
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
