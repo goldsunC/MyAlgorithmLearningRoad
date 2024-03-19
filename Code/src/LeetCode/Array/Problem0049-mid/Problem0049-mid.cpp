@@ -14,9 +14,11 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        // 无序哈希表
         unordered_map<string , vector<string>> mp;
+        // 遍历所有单词并将其进行排序存入哈希表
         for(string& str: strs) {
-            string key = str;
+            string key = str;   //将复制的str作为key并进行处理
             sort(key.begin(), key.end());
             mp[key].emplace_back(str);
         }
