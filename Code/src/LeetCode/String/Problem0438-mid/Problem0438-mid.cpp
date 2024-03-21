@@ -22,7 +22,7 @@ class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
         unordered_map<char, int> hashMap = {};
-        for (auto ch : p) {
+        for (char ch : p) {
             ++hashMap[ch];
         }
         unordered_map<char, int> useMap = hashMap;
