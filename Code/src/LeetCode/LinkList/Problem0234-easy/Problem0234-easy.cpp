@@ -44,7 +44,7 @@ public:
                 ++length;
             }
         }
-        ListNode *rightList(0);
+        ListNode *rightList;
         //上述的慢指针当length为偶数，刚好指向后半段链表，如果为奇数，指向链表的正中间节点
         if (length % 2 == 0) {
             rightList = reverseList(slow);
